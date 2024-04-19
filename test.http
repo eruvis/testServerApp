@@ -1,0 +1,17 @@
+### 1-2 задание
+POST http://localhost:8080/postMessage
+Content-Type: application/json
+
+{
+  "text": "privet"
+}
+
+### 3 задание
+POST http://localhost:8080/postVar
+Content-Type: application/json
+
+{
+  "var1": "hello",
+  "var2": "my",
+  "var3": "friend"
+}
