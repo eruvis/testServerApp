@@ -90,6 +90,3 @@ func postVar(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprint(w, v.Var1+v.Var2+v.Var3)
 	insertReq(r.RequestURI, r.Method, v.Var1+v.Var2+v.Var3)
 }
-
-func insertData() {
-}
